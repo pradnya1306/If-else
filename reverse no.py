@@ -1,20 +1,20 @@
-# x=int(input("enter the number"))
-# if x%10!=0:
-#     x=x//10
-#     if x%10!=0:
-#         x=x//10
-#         if x%10!=0:
-#             x=x//10
-#             if x%10!=0:
-#                 x=x//10
-#             else:
-#                 print("nothing")
-#         else:
-#             print("nothing")
-#     else:
-#         print("nothing")
-# else:
-#     print("nothing")
+x=int(input("enter the number"))
+if x%10!=0:
+    x=x//10
+    if x%10!=0:
+        x=x//10
+        if x%10!=0:
+            x=x//10
+            if x%10!=0:
+                x=x//10
+            else:
+                print("nothing")
+        else:
+            print("nothing")
+    else:
+        print("nothing")
+else:
+    print("nothing")
 
 a=int(input("enter the number"))
 n=a%10
